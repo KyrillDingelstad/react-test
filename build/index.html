@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tidal</title>
+  <style>
+    album {
+      list-style: none;
+    }
+
+  </style>
+</head>
+<body>
+<div id="dz-root"></div>
+  <script>
+    (function() {
+      var e = document.createElement('script');
+      e.src = 'https://e-cdns-files.dzcdn.net/js/min/dz.js';
+      e.async = true;
+      document.getElementById('dz-root').appendChild(e);
+    }());
+  </script>
+  <div id="app-container"></div>
+  <script src="app.bundle.js"></script>
+</body>
+</html>

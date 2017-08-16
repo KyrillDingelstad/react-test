@@ -1,0 +1,40 @@
+.album {
+	color: rgb(45, 254, 254);
+
+	h1 {
+		margin: 0;
+		font-size: 28px;
+	}
+	.scroll-wrapper {
+		overflow-x: scroll; 
+		overflow-y: hidden; 
+		width: 100%; 
+		ul {
+			display: flex;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			
+			li {
+				display: inline-block;
+				cursor: pointer;
+				width: 150px;
+				padding: 10px;
+				margin: 20px;
+
+				img {
+					width: 150px;
+				}
+				label {
+					text-align: center;
+					display: block;
+				}
+				&.selected {
+					border-bottom: solid 2px rgb(34, 35, 36);
+				}
+			}
+
+		}
+	}
+	
+}

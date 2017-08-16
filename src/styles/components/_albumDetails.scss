@@ -1,0 +1,58 @@
+.album-details {
+
+	color: white;
+	position: relative;
+	.album-details-header {
+		position: relative;
+		display: flex;
+		padding-left: 15px;
+
+		h2 {
+			color: rgb(45, 254, 254);
+			padding: 0;
+			margin: 0px;
+			margin-left: 20px;
+			margin-top: 10px;
+		}	
+
+		img {
+			width: 150px;
+			height: 150px;
+		}
+	}
+
+	.track-list-header { 
+			position: relative;
+			list-style:  none;
+			padding: 0;
+			margin: 0;
+			top: -100px;
+			left: 190px;
+			margin-right: 190px;
+
+			li {
+				display: inline-block;
+				padding: 10px 0;
+			}
+		}
+	.track-list {
+		font-size: 14px;
+		list-style: none;
+		margin-top: -100px;
+		padding-left: 170px;
+		background: rgb(34, 35, 36);
+
+		li {
+			.track {
+					margin-left: 10px;
+					border-bottom: solid 1px rgb(27, 28, 29);
+				li {	
+					padding: 10px 0;
+					margin-left: -30px;
+					margin-right: 30px;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}
